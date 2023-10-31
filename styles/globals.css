@@ -1,0 +1,125 @@
+/*--------- Fonts ------*/
+@font-face {
+  font-family: 'british_shorthairregular';
+  src: url('../fonts/british_shorthair-webfont.woff2') format('woff2'),
+       url('../fonts/british_shorthair-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+.attendsSec{padding:80px 0; margin:0; width:100%; position:relative; background:#fff}
+.attendsSec .attendList{margin:0; padding:0; list-style-type:none; display:flex; flex-wrap:wrap}
+.attendsSec .attendList li{width:33.333%; padding:0 15px; margin:0 0 30px 0; position:relative; text-align:center}
+.attendsSec .title{color:#000; font-size:30px; font-weight:600; margin:15px 0 0 0}
+.attendsSec p{color:#444}
+.attendsSec h4{color:#111; font-size:60px; font-weight:600; text-align:center; line-height:60px; margin: 0 0 30px 0;}
+.attendsSec h4 small{display:block; color:#73BF45; font-size:48px; font-family: 'british_shorthairregular';}
+
+
+.sponsorsSec{margin:0; padding:80px 0; position:relative; width:100%; background:#fafafa}
+.sponsorsSec h4{color:#111; font-size:60px; font-weight:600; text-align:center; line-height:60px; margin: 0 0 45px 0;}
+.sponsorsSec h4 small{display:block; color:#73BF45; font-size:48px; font-family: 'british_shorthairregular';}
+.sponsorsSec .subTitle{ text-align:center; position:relative; z-index:1}
+.sponsorsSec .subTitle:before{position:absolute; left:0; top:15px; content:""; width:100%; height:1px; background:#d9d9d9; z-index:-1}
+.sponsorsSec .subTitle span{background:#73BF45; color:#000; padding:8px 30px; font-size:18px}
+.sponsorsSec .sponsorList{margin:45px 0; padding:0; list-style-type:none; display:flex; flex-wrap:wrap; justify-content:center}
+.sponsorsSec .sponsorList li{padding:0 15px; margin:0}
+.sponsorsSec .sponsorList li .titleName{border:1px solid #BDBDBD; color:#212121; padding:10px 15px}
+
+
+.registration-section{padding:80px 0}
+.registration-section h3{color:#111; font-size:60px; font-weight:600; text-align:center; line-height:60px; margin: 0 0 30px 0;}
+.registration-section h3 small{display:block; color:#73BF45; font-size:48px; font-family: 'british_shorthairregular';}
+.registration-section .free-registration-form{margin-top:60px}
+.registration-section .form-box{display:flex;justify-content:space-between;flex-wrap:wrap;margin-bottom:60px}
+.registration-section .form-item{width:49%;margin:15px 0}
+.registration-section .form-item label{display:none}
+.registration-section .form-item input{width:100%;border:0;border-bottom:1px solid;padding:10px 0}
+.registration-section .submit-reg-form{background-color:green;color:#fff;border:0;padding:10px 40px;margin:auto;display:flex}
+
+
+.exhibhition-section{background:#111926 url("/images/exhibhition-bg.jpg") no-repeat center center;padding:80px 0 0 0; background-size: cover; width:100%; position: relative;}
+.exhibhition-section h3{color:#fff; font-size:60px; font-weight:600; text-align:center; line-height:60px; margin: 0 0 30px 0;}
+.exhibhition-section h3 small{display:block; color:#73BF45; font-size:48px; font-family: 'british_shorthairregular';}
+.exhibhition-section .exhibhition-box{background-color:#fff;padding:40px;text-align:center; position: relative;}
+.exhibhition-section .exhibhition-box:before {position: absolute; left: -240px; top: 45%; content: "Mumbai 2023"; font-size: 60px; z-index: 9; font-weight: 700; word-break: break-all; line-height: 50px; transform: rotate(-90deg); color:rgba(255, 255, 255, 0.3)}
+.exhibhition-section .exhibhition-img img{width:100%; height: auto;}
+.exhibhition-section .exhibhition-img{margin-bottom:30px;position: relative;}
+.exhibhition-section .exhibhition-title{font-size:32px;text-align:center;font-weight:600}
+.exhibhition-section .exhibhition-title span{color:green}
+.exhibhition-section .exhibhition-details{display:flex;justify-content:space-between;text-align:left}
+.exhibhition-section .registr-now{background-color:green;color:#fff;border:0;padding:10px 40px;margin:auto}
+.exhibhition-section .exhibhition-content{margin-bottom:50px}
+.exhibhition-section .icon{display:block;margin-right:15px; }
+.exhibhition-section .exhibhition-date{display:flex}
+.exhibhition-section .exhibhition-location{display:flex}
+.exhibhition-section .exhibhition-time{display:flex}
+.exhibhition-section .btn-box{position:absolute;bottom:0;padding:10px 20px;width:100%;display:flex}
+.exhibhition-section .btn-box span{background-color:#000;color:#fff;padding:10px;margin:5px}
+.exhibhition-section .btn-box .view-large{margin-right:auto}
+
+
+.clientsReview {background: #0C1728 ; padding: 80px 0; position: relative; width: 100%}
+.clientsReview h3 {color: #fff; font-size: 60px; font-weight: 600; text-align: center; line-height: 60px; margin: 0 0 30px 0;}
+.clientsReview h3 small {display: block; color: #73BF45; font-size: 48px; font-family: 'british_shorthairregular';}
+.clientsReview .reviewBox {background-color: #fff; padding: 40px; text-align: center; position: relative;}
+.clientsReview .reviewList {margin: 0; padding: 0; list-style-type: none; display: flex; flex-wrap: wrap}
+.clientsReview .reviewList li {width: 50%; margin: 0; padding: 0}
+.clientsReview .reviewList .innerBox {display: flex; flex-wrap: wrap; margin: 0; padding: 0}
+.clientsReview .reviewList .innerBox .imgBox {width: 20%; position: relative; display: flex; flex-direction: column; justify-content: center; padding: 50px 0;}
+.clientsReview .reviewList .quoteBox {position: absolute; right: -50px; top: 0; background: #00833D; width: 50px; height: 50px; align-items: center; display: flex; justify-content: center; padding: 10px;}
+.clientsReview .reviewList .quoteBox img {width: 100%; height: 100%}
+.clientsReview .reviewList .innerBox .imgBox img {width: 100%; height: auto; display: block;}
+.clientsReview .reviewList .innerBox .contentBox {width: 80%; text-align: left; padding: 0 0 0 75px;}
+.clientsReview .contentBox p{color:#444; line-height:normal}
+.clientsReview .contentBox .autherName{color:#000; font-size:18px; font-weight:700}
+.clientsReview .contentBox .autherPosi{color:#444; font-weight:300}
+.clientsReview .contentBox .autherDesi{color:#00833D}
+
+.clientlogo{background:#fff; padding:30px 0; margin:0; width:100%; position:relative}
+.clientlogo .logoList{margin:0; padding:0; display:flex; flex-wrap:wrap; list-style-type:none; align-items:center; justify-content:center}
+.clientlogo .logoList li{padding:10px; border:1px solid #bdbdbd; margin:0 15px; background:#ccc }
+.clientlogo .logoList li img{width:100%; height:50px; object-fit:contain; max-width:150px}
+
+.exploreEvents{background:#111926 url("/images/exhibhition-bg.jpg") no-repeat center center;padding:80px  0; background-size: cover; width:100%; position: relative;}
+.exploreEvents h3{color:#fff; font-size:60px; font-weight:600; text-align:center; line-height:60px; margin: 0 0 30px 0;}
+.exploreEvents h3 small{display:block; color:#73BF45; font-size:48px; font-family: 'british_shorthairregular';}
+
+.exploreEvents p{color:#fff; text-align:center}
+.exploreEvents .eventList{margin:45px 0 0 0; padding:0; list-style-type:none; display:flex; flex-wrap:wrap; position: relative;}
+.exploreEvents .eventList:before{position:absolute; left:0; top:0; left:0; top:15px; width:100%; height:1px; background:#626262; content:""}
+.exploreEvents .eventList li{width:25%; margin:0; padding:0 15px; position:relative}
+.exploreEvents .imgBox img{width:100%; height:auto}
+.exploreEvents .eventDate{background:#73BF45; display:inline-block; padding:5px 15px; color:#111; font-size:14px}
+.exploreEvents .location{font-size:24px; font-weight:600; color:#fff; margin:10px 0 15px 0}
+.exploreEvents .contentBox{text-align:center}
+
+
+
+/*----------- Footer ---------*/
+footer.siteFooter {background:#111; padding:50px 0 0 0; width:100%; position:relative}
+footer.siteFooter .footerTop{margin:0 0 60px 0; padding: 0; width:100%}
+footer.siteFooter .siteBrand img{max-width:350px}
+footer.siteFooter .navlist{margin:0; padding:0; list-style-type:none; display:flex; flex-wrap:wrap}
+footer.siteFooter .navlist li{width:50%; margin:0 0 15px 0; padding:0}
+footer.siteFooter .navlist li a{color:#fff; text-decoration:none}
+footer.siteFooter .imageList{margin:0; padding:0; list-style-type:none; display:flex; flex-wrap:wrap}
+footer.siteFooter .imageList li{width:33.333%; margin:0; padding:0}
+footer.siteFooter .imageList li img{display:block; margin:0; padding:0; width:100%; height:100%}
+footer.siteFooter .contactList{margin:0; padding:0; list-style-type:none; display:flex; flex-wrap:wrap}
+footer.siteFooter .contactList li{margin:0 0 15px 0; padding:0; width:100%; color:#fff; position:relative; flex-direction:row; display:flex}
+footer.siteFooter .contactList li span{padding-right:10px}
+footer.siteFooter .contactList li a{color:#fff; text-decoration:none}
+footer.siteFooter .socialList{margin:0; padding:0; list-style-type:none; display:flex; justify-content:flex-end}
+footer.siteFooter .socialList li{margin:0; padding:0}
+footer.siteFooter .footerBottom{margin:0; padding:0; width:100%; position:relative}
+footer.siteFooter .footerBottom .container .row{border-top:1px solid #717171; padding:10px 0px; margin:45px 0 0 0}
+footer.siteFooter .footerBottom .left{padding-left: 0;}
+footer.siteFooter .footerBottom .right{padding-right: 0;}
+footer.siteFooter .footerBottom p{color:#717171; margin:0}
+footer.siteFooter .footerBottom p a{color:#fff; text-decoration:none}
+footer.siteFooter .footerBottom .right{text-align:right;}
+footer.siteFooter .footerBottom .row{align-items: center;}
+footer.siteFooter .footerBottom p a:hover{color:#717171}

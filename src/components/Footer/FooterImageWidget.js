@@ -1,0 +1,83 @@
+import React from "react";
+import Image from "next/image";
+
+export const FooterImageWidget = () => {
+  return (
+    <>
+      <ul className="imageList">
+        <li>
+          <Image
+            src={"/images/footerwidget-01.svg"}
+            width={"80"}
+            height={"80"}
+            alt="Logo"
+          />
+        </li>
+        <li>
+          <Image
+            src={"/images/footerwidget-01.svg"}
+            width={"80"}
+            height={"80"}
+            alt="Logo"
+          />
+        </li>
+        <li>
+          <Image
+            src={"/images/footerwidget-01.svg"}
+            width={"80"}
+            height={"80"}
+            alt="Logo"
+          />
+        </li>
+        <li>
+          <Image
+            src={"/images/footerwidget-01.svg"}
+            width={"80"}
+            height={"80"}
+            alt="Logo"
+          />
+        </li>
+        <li>
+          <Image
+            src={"/images/footerwidget-01.svg"}
+            width={"80"}
+            height={"80"}
+            alt="Logo"
+          />
+        </li>
+        <li>
+          <Image
+            src={"/images/footerwidget-01.svg"}
+            width={"80"}
+            height={"80"}
+            alt="Logo"
+          />
+        </li>
+        <li>
+          <Image
+            src={"/images/footerwidget-01.svg"}
+            width={"80"}
+            height={"80"}
+            alt="Logo"
+          />
+        </li>
+        <li>
+          <Image
+            src={"/images/footerwidget-01.svg"}
+            width={"80"}
+            height={"80"}
+            alt="Logo"
+          />
+        </li>
+        <li>
+          <Image
+            src={"/images/footerwidget-01.svg"}
+            width={"80"}
+            height={"80"}
+            alt="Logo"
+          />
+        </li>
+      </ul>
+    </>
+  );
+};
